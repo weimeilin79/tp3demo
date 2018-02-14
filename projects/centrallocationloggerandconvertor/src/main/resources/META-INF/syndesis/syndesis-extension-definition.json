@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "actionType": "extension",
+      "id": "central-location-convertor-logger",
+      "name": "central-location-convertor-logger",
+      "description": "A simple xml based logging extension",
+      "tags": [
+        "xml"
+      ],
+      "descriptor": {
+        "kind": "ENDPOINT",
+        "entrypoint": "direct:log-body",
+        "inputDataShape": {
+          "kind": "any"
+        },
+        "outputDataShape": {
+          "kind": "any"
+        },
+        "propertyDefinitionSteps": []
+      }
+    }
+  ],
+  "tags": [
+    "feature",
+    "experimental"
+  ]
+}
+
